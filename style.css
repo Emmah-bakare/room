@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "league spartan";
+  font-size: 16px;
+}
+
+/* navbar */
+
+.navbar {
+  display: inline-flex;
+  padding: 50px;
+}
+
+/* logo */
+
+.logo {
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-right: 10px;
+  height: 60px;
+}
+
+/* navbar links */
+
+.navbar-links {
+  list-style-type: none;
+  display: inline-flex;
+  color: #ffffffff;
+  gap: 35px;
+  padding-left: 50px;
+  font-weight: 500;
+}
+
+/* white chairs section */
+
+.white-chairs-and-paragraph {
+  display: flex;
+}
+
+.white-chairs {
+  background-image: url(./images/white-chairs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 60%;
+}
+
+.section-one-text {
+  margin: auto;
+  position: relative;
+}
+
+.h1-header {
+  font-size: 50px;
+  font-weight: 600;
+  color: #000000ff;
+}
+
+.section-one-paragraph {
+  line-height: 20px;
+  color: #a1a1a1ff;
+  font-weight: 500;
+}
+
+.shop-now-button {
+  display: flex;
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
+
+.shop-now {
+  letter-spacing: 10px;
+  font-weight: 500;
+  color: #000000ff;
+  padding-right: 10px;
+}
+
+.section-one-text .black-rectangle-box-container {
+  position: absolute;
+  margin: 0;
+  right: 86%;
+}
+
+.black-rectangle-box {
+  height: 40px;
+  width: 92px;
+  background-color: #000000ff;
+  padding: 25px;
+  gap: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* section two  */
+
+.section-two {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.section-two-text {
+  margin: auto;
+}
+
+.h2-section-two {
+  font-size: medium;
+  letter-spacing: 6px;
+  word-spacing: 5px;
+}
+
+.section-two-paragraph {
+  line-height: 20px;
+  color: #a1a1a1ff;
+  font-weight: 500;
+}
