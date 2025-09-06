@@ -49,9 +49,9 @@ body {
 }
 
 .section-one-text {
-  padding: 50px;
-  padding-left: 80px;
-  padding-left: 80px;
+  padding-top: 80px;
+  padding-left: 90px;
+  padding-left: 90px;
   position: relative;
 }
 
@@ -96,11 +96,12 @@ body {
 
 .section-two {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 30% 40% 30%;
 }
 
 .section-two-text {
   padding-left: 40px;
+  padding-right: 40px;
   padding-top: 50px;
 }
 
