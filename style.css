@@ -50,6 +50,8 @@ body {
 
 .section-one-text {
   padding: 50px;
+  padding-left: 80px;
+  padding-left: 80px;
   position: relative;
 }
 
@@ -98,7 +100,8 @@ body {
 }
 
 .section-two-text {
-  margin: auto;
+  padding-left: 40px;
+  padding-top: 50px;
 }
 
 .h2-section-two {
