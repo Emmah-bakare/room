@@ -9,8 +9,12 @@ body {
 /* navbar */
 
 .navbar {
-  display: inline-flex;
+  display: flex;
   padding: 50px;
+}
+
+.hamburger {
+  display: none;
 }
 
 /* logo */
@@ -55,6 +59,10 @@ body {
   position: relative;
 }
 
+.section-one-text-media-query {
+  display: none;
+}
+
 .hero-heading {
   font-size: 50px;
   font-weight: 600;
@@ -92,6 +100,10 @@ body {
   bottom: 0;
 }
 
+.black-button-container-media-query {
+  display: none;
+}
+
 /* section two  */
 
 .section-two {
@@ -124,4 +136,355 @@ body {
 
 .small-white-chairs img {
   width: 100%;
+}
+
+.footer-media-query {
+  display: none;
+}
+
+/* MEDIA RESPONSIVENESS */
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-links {
+    visibility: hidden;
+  }
+
+  .white-chairs-and-paragraph {
+    display: block;
+  }
+
+  .white-chairs {
+    width: 100%;
+    position: relative;
+  }
+
+  .black-rectangle-box {
+    display: none;
+  }
+
+  .black-button-container-media-query {
+    display: block;
+  }
+
+  .black-button-media-query {
+    align-items: center;
+    height: 70px;
+    width: 141px;
+    background-color: #000000ff;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-one-text {
+    display: none;
+  }
+
+  .section-one-text-media-query {
+    display: block;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .shop-now-button-media-query {
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .section-two {
+    display: block;
+  }
+
+  .section-two-text {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .small-white-chairs-media-query {
+    display: none;
+  }
+}
+
+/* MEDIA QUERY 2 */
+@media screen and (min-width: 577px) {
+  .navbar {
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-links {
+    visibility: hidden;
+  }
+
+  .white-chairs-and-paragraph {
+    display: block;
+  }
+
+  .white-chairs {
+    width: 100%;
+    position: relative;
+  }
+
+  .black-rectangle-box {
+    display: none;
+  }
+
+  .black-button-container-media-query {
+    display: block;
+  }
+
+  .black-button-media-query {
+    align-items: center;
+    height: 70px;
+    width: 141px;
+    background-color: #000000ff;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-one-text {
+    display: none;
+  }
+
+  .section-one-text-media-query {
+    display: block;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .section-two {
+    display: block;
+  }
+
+  .section-two-text {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/* MEDIA QUERY 3 */
+@media screen and (min-width: 991px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbar-links {
+    visibility: visible;
+  }
+
+  .white-chairs-and-paragraph {
+    display: flex;
+  }
+
+  .section-one-text-media-query {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .white-chairs {
+    position: relative;
+  }
+
+  .black-button-media-query {
+    align-items: center;
+    height: 70px;
+    width: 141px;
+    background-color: #000000ff;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .black-rectangle-box {
+    display: none;
+  }
+
+  .dark-chairs {
+    display: none;
+  }
+
+  .section-two-text {
+    display: none;
+  }
+
+  .small-white-chairs {
+    display: none;
+  }
+
+  .footer-media-query {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30vh;
+  }
+
+  .dark-chairs-media-query {
+    background-image: url(images/dark-chairs-bedroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .small-white-chairs-media-query {
+    display: block;
+    background-image: url(images/small-white-chair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .h2-section-two-media-query {
+    color: #fff;
+    font-size: medium;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+  }
+
+  .section-two-text-media-query {
+    color: #000;
+    line-height: 20px;
+    padding: 12%;
+  }
+
+  .section-two-paragraph-media-query {
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+/* MEDIA QUERY 4 */
+
+@media screen and (min-width: 1300px) {
+  .navbar {
+    display: flex;
+    padding: 50px;
+    justify-content: left;
+  }
+
+  .navbar-links {
+    list-style-type: none;
+    display: inline-flex;
+    color: #ffffffff;
+    gap: 35px;
+    padding-left: 50px;
+    font-weight: 500;
+  }
+
+  .white-chairs {
+    background-image: url(./images/white-chairs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 60%;
+  }
+
+  .section-one-text-media-query {
+    display: none;
+  }
+
+  .section-one-text {
+    display: block;
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-left: 90px;
+    position: relative;
+  }
+
+  .hero-heading {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000ff;
+  }
+
+  .black-button-container-media-query {
+    display: none;
+  }
+
+  .black-rectangle-box {
+    display: block;
+    align-items: center;
+    height: 70px;
+    width: 141px;
+    background-color: #000000ff;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .footer-media-query {
+    display: none;
+  }
+
+  .section-two {
+    display: block;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  .dark-chairs {
+    display: block;
+  }
+
+  .section-two-text {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+  }
+
+  .h2-section-two {
+    display: block;
+    font-size: medium;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+  }
+
+  .section-two-paragraph {
+    display: block;
+    line-height: 20px;
+    color: #a1a1a1ff;
+    font-weight: 500;
+  }
+
+  .small-white-chairs {
+    display: block;
+    width: 100%;
+  }
 }
